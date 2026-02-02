@@ -11,3 +11,9 @@ let y=7;
 console.log(x,y);
 [x,y]=[y,x];/// distructure method
 console.log(x,y);
+for (var i = 0; i < 5; i++) {
+ 	 setTimeout(function () {
+ 	console.log(i);
+  }, 100);
+}
+Math.pow(2, 3);
